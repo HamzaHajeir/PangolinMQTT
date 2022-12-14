@@ -26,6 +26,7 @@ SOFTWARE.
 #include<Packet.h>
 
 uint16_t                            Packet::_nextId=1000;
+using std::byte;
 
 void Packet::_build(bool hold){
     uint8_t* virgin;

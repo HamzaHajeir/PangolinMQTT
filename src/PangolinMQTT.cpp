@@ -31,6 +31,8 @@ PANGO_PACKET_MAP        PangolinMQTT::_outbound;
 
 PangolinMQTT*       PANGOV3;
 
+using namespace std;
+
 PangolinMQTT::PangolinMQTT(): AardvarkTCP(){
     PANGOV3=this;
     setNoDelay(true);

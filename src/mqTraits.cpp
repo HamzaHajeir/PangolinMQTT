@@ -18,6 +18,7 @@
         {0xe0,"DISCONNECT"}
     };
 #endif
+using namespace std;
 
 std::string mqttTraits::_decodestring(uint8_t** p){
     size_t tlen=_peek16(*p);//payload+=2;
